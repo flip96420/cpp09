@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: pschmunk <pschmunk@student.42.fr>          +#+  +:+       +#+         #
+#    By: phillymilly <phillymilly@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/08 15:16:08 by pschmunk          #+#    #+#              #
-#    Updated: 2025/10/08 15:16:39 by pschmunk         ###   ########.fr        #
+#    Updated: 2025/12/29 23:12:53 by phillymilly      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,8 @@ RM = rm -rf
 
 CPP_09 = btc
 
-CPP_09_SRC =	./main.cpp	\
+CPP_09_SRC =	./main.cpp				\
+				./BitcoinExchange.cpp	\
 
 CPP_09_OBJ = $(CPP_09_SRC:.cpp=.o)
 
